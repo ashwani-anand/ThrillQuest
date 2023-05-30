@@ -162,7 +162,7 @@ const Home = () => {
             <Container>
                 <Row>
                     <Col lg="12">
-                        <Subtitle subtitle={"Fans Loves"} />
+                        <Subtitle subtitle={"Testimonials"} />
                         <h2 className="testimonial__title">What our Clients Say about Us</h2>
                     </Col>
                     <Col lg="12">

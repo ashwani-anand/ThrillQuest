@@ -28,7 +28,7 @@
 #homesection1{
     /* border: 2px solid red; */
     margin-top: -22px;
-    box-shadow: 2px 2px 40px #e5e6e4;
+    /* box-shadow: 2px 2px 40px #e5e6e4; */
 
     
 
@@ -37,13 +37,13 @@
     /* background-image: linear-gradient(#ffd8cbc3, #f9a126a6); */
     background-image: linear-gradient(#e5e6e4, #ffffff);
     /* background-image: ; */
-    box-shadow: 2px 2px 40px #9a9b99;
+    box-shadow: 2px 2px 60px #9a9b99;
     position: relative;
     border-radius: 12px;
 
 
 
-    top: -5px;
+    top: 20px;
     
 }
 #homesection3{
@@ -51,7 +51,7 @@
     /* background-image: linear-gradient(#FFD166, #FFFCF9); */
     background-image: linear-gradient(#e5e6e4, #ffffff);
     /* box-shadow: 2px 2px 40px linear-gradient(#e5e6e4, #ffffff); */
-    box-shadow: 2px 2px 40px #9a9b99;
+    /* box-shadow: 2px 2px 40px #9a9b99; */
 
 
 
@@ -110,7 +110,7 @@
 
 
 .hero__content p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 800;
     font-family: 'Poppins';
 
@@ -118,7 +118,7 @@
     line-height: 2.5rem;
     /* text-shadow: 1px 1px 3px rgb(148, 102, 18)  ; */
     text-shadow: 2px 2px 14px black;
-    box-shadow: 2px 2px 5px black;
+    /* box-shadow: 2px 2px 5px black; */
     /* border-radius: 12px; */
     text-align: justify;
     /* border: 2px solid red; */
@@ -194,7 +194,7 @@
 .featured__tour-title{
     font-size: 2.3rem;
     font-weight: 500;
-    text-shadow: 2px 2px 11px rgb(246, 209, 140);
+    /* text-shadow: 2px 2px 11px rgb(246, 209, 140); */
 }
 
 .experience__content h2{
