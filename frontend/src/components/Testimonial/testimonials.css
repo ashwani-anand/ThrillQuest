@@ -1,0 +1,13 @@
+.clienttestimonies{
+    font-size: 15px;
+    font-family: 'kalam';
+    font-weight: 400;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgb(245, 226, 191);
+    
+}
+.testimonial{
+    /* border: 2px solid red; */
+    margin: auto 12px;
+    box-shadow: 2px 2px 4px rgb(168, 123, 39);
+}
