@@ -1,5 +1,7 @@
 .tour__img img{
-    width: 100%;
+    width: 305px;
+    height: 200px;
+    /* object-fit: cover; */
     border-radius: 5px 5px 0 0;
 }
 .card{
@@ -16,8 +18,10 @@
 }
 .tour__img{
     position: relative;
+    /* display: flex; */
     /* border: 2px solid red; */
     border-radius: 10px;
+    /* overflow: hidden; */
 }
 .tour__img span{
     position: absolute;
@@ -30,8 +34,7 @@
     color: #fff;
     padding: 0.3rem,0.5rem;
     border-radius: 3px 0 0 0;
-    text-shadow: 0px 1px 5px black;
-    
+    text-shadow: 0px 1px 5px black;   
 }   
 
 
@@ -53,7 +56,7 @@
 
 }
 
-.tour__rating i,.tour__location i{
+.tour_rating i,.tour_location i{
     font-size: 1rem;
 
 }

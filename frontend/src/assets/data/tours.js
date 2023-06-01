@@ -5,9 +5,9 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
-import tourImg08 from "../images/tour-img08.jpg";
-import tourImg09 from "../images/tour-img09.jpg";
-import tourImg10 from "../images/tour-img10.jpg";
+// import tourImg08 from "../images/tour-img08.jpg";
+// import tourImg09 from "../images/tour-img09.jpg";
+// import tourImg10 from "../images/tour-img10.jpg";
 
 const tours = [
   {
@@ -22,6 +22,7 @@ const tours = [
     reviews: [
       {
         name: "Rahul Dua",
+        reviewText:"Had a great experience",
         rating: 4.5,
       },
       {
@@ -153,7 +154,7 @@ const tours = [
     desc: "Siargao Islands, located in the province of Surigao del Norte in the Philippines, is a tropical paradise renowned for its stunning natural beauty, world-class surfing spots, and laid-back island vibe. It has gained international recognition as one of the best surfing destinations in the world, attracting surfers of all levels.Siargao's main attraction is the famous Cloud 9, a powerful and consistent wave that draws surfers from around the globe. The exhilarating waves and the vibrant surfing community make it a mecca for wave riders. Beginners can also find surf spots suitable for learning and enjoy the thrill of riding their first waves.Aside from surfing, Siargao offers breathtaking landscapes and pristine beaches. The island is surrounded by crystal-clear turquoise waters and boasts stretches of white sand beaches, such as General Luna Beach, Pacifico Beach, and Sugba Lagoon. These beaches provide a perfect setting for relaxation, sunbathing, and swimming.Siargao's food scene reflects its coastal charm, with an abundance of fresh seafood and local delicacies. Don't miss out on trying kinilaw (ceviche) and lechon kawali (deep-fried pork) among other mouthwatering dishes.Whether you're seeking adventure, relaxation, or a connection with nature, Siargao Islands provides a magical escape with its stunning beaches, world-class surf breaks, and warm island hospitality. It's a destination that captures the essence of tropical paradise and leaves visitors with unforgettable memories.",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
   {
@@ -167,7 +168,7 @@ const tours = [
     desc: "Thailand, located in Southeast Asia, is a captivating and diverse country known for its rich cultural heritage, stunning natural landscapes, vibrant cities, and warm hospitality. It offers a wide range of experiences, from ancient temples and bustling markets to idyllic beaches and lush jungles, making it a popular destination for travelers from around the world.Thailand's pristine beaches and islands are a major draw for visitors. Phuket, Krabi, Koh Samui, and Phi Phi Islands are just a few of the stunning beach destinations that offer crystal-clear turquoise waters, powdery white sand, and opportunities for snorkeling, diving, and water sports. The famous Maya Bay, featured in the movie The Beach, is a must-visit destination.For adventure seekers, Thailand offers opportunities for jungle trekking, elephant sanctuaries, and zip-lining through the lush greenery of national parks such as Khao Yai and Erawan. The northern region of Pai is a haven for nature lovers, with its picturesque landscapes, hot springs, and waterfalls.Thailand's festivals are vibrant and colorful, with the Songkran water festival and Loy Krathong festival being popular highlights. These celebrations provide a glimpse into the country's traditions, with locals and visitors coming together to enjoy music, dance, and fireworks.Overall, Thailand's charm lies in its diversity and the warm hospitality of its people. It offers a mix of cultural immersion, natural beauty, and adventure, providing a truly unforgettable experience for those who visit this enchanting Southeast Asian gem.",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg09,
     featured: false,
   },
   {
@@ -181,7 +182,7 @@ const tours = [
     desc: "Vietnam, located in Southeast Asia, is a captivating and diverse country known for its natural beauty, rich history, vibrant culture, and warm hospitality. From bustling cities to picturesque landscapes, Vietnam offers a plethora of experiences that cater to different interests and preferences.The capital city, Hanoi, is a vibrant and charming city known for its bustling Old Quarter, where narrow streets are lined with traditional shops, street food stalls, and ancient temples. In the south, Ho Chi Minh City (formerly known as Saigon) is a bustling metropolis that blends old-world charm with modern developments. The city offers a vibrant street food scene, lively markets like Ben Thanh Market, and historical landmarks such as the Reunification Palace and the War Remnants Museum. Vietnam offers a plethora of thrilling adventure activities for adrenaline junkies and outdoor enthusiasts. Here are some popular adventure activities to consider when visiting Vietnam:Trekking and Hiking,Motorbike Tours,Rock Climbing,White Water Rafting and many more.Whether you're exploring the bustling cities, cruising through stunning natural landscapes, immersing in local traditions, or savoring the delicious cuisine, Vietnam offers a blend of history, natural beauty, and vibrant culture that captivates and delights travelers from all walks of life.",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg10,
     featured: false,
   },
 ];

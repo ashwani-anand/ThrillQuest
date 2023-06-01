@@ -37,7 +37,7 @@
     /* background-image: linear-gradient(#ffd8cbc3, #f9a126a6); */
     background-image: linear-gradient(#e5e6e4, #ffffff);
     /* background-image: ; */
-    box-shadow: 2px 2px 60px #9a9b99;
+    box-shadow: 2px 2px 40px #9a9b99;
     position: relative;
     border-radius: 12px;
 
@@ -47,10 +47,10 @@
     
 }
 #homesection3{
-    /* background-image: linear-gradient(#ffd8cbc3, #f9a126a6); */
-    /* background-image: linear-gradient(#FFD166, #FFFCF9); */
+    
     background-image: linear-gradient(#e5e6e4, #ffffff);
-    /* box-shadow: 2px 2px 40px linear-gradient(#e5e6e4, #ffffff); */
+    /* background-image: grey; */
+
     /* box-shadow: 2px 2px 40px #9a9b99; */
 
 
@@ -67,8 +67,9 @@
 #homesection4{
     /* background-image: linear-gradient(#FFD166, #FFFCF9); */  
     background-image: linear-gradient(#e5e6e4, #ffffff);
-    /* box-shadow: 2px 2px 40px linear-gradient(#e5e6e4, #ffffff); */
-    box-shadow: 2px 2px 40px #9a9b99;
+    /* background-image: grey; */
+    
+    /* box-shadow: 2px 2px 40px #9a9b99; */
 
 
 
@@ -83,6 +84,7 @@
 #homesection5{
     /* background-image: linear-gradient(#FFD166, #FFFCF9); */
     background-image: linear-gradient(#e5e6e4, #ffffff);
+    /* background-image: grey; */
     box-shadow: 2px 2px 40px #9a9b99;
 
 
@@ -96,6 +98,7 @@
 #homesection6{
     /* background-image: linear-gradient(#FFD166, #FFFCF9); */
     background-image: linear-gradient(#e5e6e4, #ffffff);
+    /* background-image: grey; */
     box-shadow: 2px 2px 40px #9a9b99;
 
 
@@ -111,7 +114,7 @@
 
 .hero__content p{
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Poppins';
 
     color: rgb(241, 238, 238);
@@ -189,12 +192,12 @@
 .services__title{
     font-size: 2.5rem;
     font-weight: 500;
-    text-shadow: 2px 2px 1px grey;
+    text-shadow: 2px 2px 1px lightgrey;
 }
 .featured__tour-title{
     font-size: 2.3rem;
     font-weight: 500;
-    /* text-shadow: 2px 2px 11px rgb(246, 209, 140); */
+    text-shadow: 2px 2px 1px lightgrey;
 }
 
 .experience__content h2{
@@ -253,4 +256,31 @@
     margin-top: 1rem;
  }
  
+ @media only screen and(max-width:992px){
+    .hero__content h1{
+        font-size: 2.7rem;
+    }
+
+    .hero__img-box{
+            display: none;
+
+    }
+    .services__title,.featured__tour-title,.gallery__title,.testimonial__title
+    ,.experience__content h2{
+        font-size: 2rem;
+    }
+    .experience__img{
+        margin-top: 2rem;
+    }
+ }
     
+
+ @media only screen and(max-width:575px){
+    .hero__content h1{
+        font-size: 1.8rem;
+    }
+    .services__title,.featured__tour-title,.gallery__title,.testimonial__title,.experience__content h2{
+        font-size: 1.5rem;
+    }
+
+ }
