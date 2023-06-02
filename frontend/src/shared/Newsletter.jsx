@@ -2,6 +2,7 @@ import React from "react";
 import './newsletter.css'
 
 import {Container,Row,Col} from 'reactstrap'
+import {Link} from 'react-router-dom'
 import maleTourist from '../assets/images/male-tourist.png'
 
 const Newsletter = () => {
@@ -13,7 +14,7 @@ const Newsletter = () => {
                     <h2>Subscribe Now to get useful traveling information</h2>
                     <div className="newsletter__input">
                         <input type="email" placeholder="Enter Your Email" />
-                        <button className="btn newsletter__btn">Subscribe</button>
+                        <Link to="/subscribethanks"><button className="btn newsletter__btn">Subscribe</button></Link>
                     </div>
                     <p> Your gateway to exciting destinations, 
                         insider tips, and exclusive offers. Get ready 

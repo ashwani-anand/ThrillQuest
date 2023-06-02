@@ -1,9 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './footer.css'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import { BASE_URL } from '../../utils/config';
 
 const quick__links = [
     {
@@ -33,6 +34,8 @@ const quick__links2 = [
         display: 'Register'
     },
 ]
+
+
 
 const Footer = () => {
 
@@ -71,18 +74,22 @@ const Footer = () => {
 
 
                             {quick__links.map((item, index) => (
+                                
 
-                                <ListGroupItem key={index} className='ps-0 border-0'>
+                                <ListGroupItem key={index} className='listgrp ps-0 border-0'>
                                     <Link to={item.path}>
                                         {item.display}</Link>
                                 </ListGroupItem>
-                            ))}
+                                
+                                    ))}
 
+                                    
 
 
 
 
                         </ListGroup>
+                        
 
 
                     </Col>

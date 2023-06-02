@@ -4,11 +4,13 @@
     margin-top: 3rem;
     /* border: 2px solid red; */
     position: relative;
-    top:60px;
+    /* border-radius: 12px; */
+    top:130px;
     
 }
 .newsletter__img img{
     width: 100%;
+    ;
 }
 .newsletter__content{
     padding: 50px;
@@ -44,6 +46,7 @@
     background: var(--secondary-color) !important;
     color: #fff !important;
     font-size: 1.1rem !important;
+    width: 150px;
 }
 
 @media only screen and (max-width:992px) {

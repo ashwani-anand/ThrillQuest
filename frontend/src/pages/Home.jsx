@@ -15,8 +15,10 @@ import MasonryImagesGallery from "../components/image-gallery/MasonryImagesGalle
 import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 
+
 const Home = () => {
-    return <> 
+
+    return <>
 
         <section className="parentlanding" id="homesection1">
             {/* playing the background video for landing page */}
@@ -31,15 +33,15 @@ const Home = () => {
                 <Row>
                     <Col lg='6'>
                         <div className="hero__content">
-                        
+
                             <h1 id="maintext">Experience adventure like never before and create<span className="highlight"> memories</span></h1>
                             <p>Dare to dream, dare to venture, and let us be your guide in unlocking the extraordinary.
-                                 Get ready to redefine adventure and create memories
-                                  that will linger in your heart for a lifetime.
-                                   Your next unparalleled escapade awaits.</p>
-                    
+                                Get ready to redefine adventure and create memories
+                                that will linger in your heart for a lifetime.
+                                Your next unparalleled escapade awaits.</p>
+
                         </div>
-                    </Col> 
+                    </Col>
 
                     {/* <Col lg='2'>
                         <div className="hero__vid-box">
@@ -56,12 +58,24 @@ const Home = () => {
                         <video src={landingvid2} alt="" loop autoPlay muted plays-inline/>
                         </div>
                     </Col> */}
-                    
 
-                    <SearchBar />
+
+                    {/* <SearchBar /> */}
+                    {/* wii be applied later in project coz of bug */}
 
                 </Row>
             </Container>
+        </section>
+        <section class="rds">
+            <span>Ride</span>
+            <span>Explore</span>
+            <span>Stay</span>
+            <span>Immerse</span>
+            <span>Plan</span>
+            <span>Schedule</span>
+            
+
+
         </section>
         {/* landing section end */}
         <section id="homesection2">
@@ -95,15 +109,16 @@ const Home = () => {
             <Container>
                 <Row>
                     <Col lg='6'>
-                        <div className="experience__content">
+                        <div
+                            className="experience__content" >
                             <Subtitle subtitle={"Experience"} />
 
                             <h2>We specialize in curating unforgettable travel experiences<br />that cater to every adventurer's wanderlust.</h2>
                             <p>
-                            Seeking cultural immersion, breathtaking landscapes, thrilling adventures, or simply a chance to relax and unwind,
-                             we have the perfect itinerary for you.
+                                Seeking cultural immersion, breathtaking landscapes, thrilling adventures, or simply a chance to relax and unwind,
+                                we have the perfect itinerary for you.
                                 <br />
-                            Let us take you on a journey of discovery and create memories that will last a lifetime.
+                                Let us take you on a journey of discovery and create memories that will last a lifetime.
                             </p>
                         </div>
 
@@ -172,16 +187,16 @@ const Home = () => {
                 </Row>
 
             </Container>
-        
-
-        {/* TESTIMONIAL SECTION ENDS */}
 
 
-        
-        <Newsletter />
-    </section>
+            {/* TESTIMONIAL SECTION ENDS */}
 
-    
+
+
+            <Newsletter />
+        </section>
+
+
 
 
     </>

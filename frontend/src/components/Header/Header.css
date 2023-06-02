@@ -6,6 +6,15 @@
     /* border: 2px solid red; */
 
 }
+.nav_wrapper{
+    /* border: 2px solid red; */
+}
+.nav__item{
+    /* border: 2px solid green; */
+    position: relative;
+    left: -50px;
+}
+
 
  .logo img{
     width: 16%;

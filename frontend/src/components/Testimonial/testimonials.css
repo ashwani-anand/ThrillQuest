@@ -3,11 +3,19 @@
     font-family: 'kalam';
     font-weight: 400;
     text-align: justify;
-    text-shadow: 1px 1px 2px rgb(245, 226, 191);
+    /* text-shadow: 1px 1px 2px rgb(245, 226, 191); */
+   
     
 }
 .testimonial{
     /* border: 2px solid red; */
     margin: auto 12px;
-    box-shadow: 2px 2px 4px rgb(168, 123, 39);
+    /* box-shadow: 0px 2px 4px rgb(168, 123, 39); */
+}
+.testimonial h6{
+    color: rgb(164, 111, 12);
+}
+.testimonial .cust {
+    color: rgb(102, 82, 56);
+    
 }

@@ -1,0 +1,69 @@
+
+.payment-container {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 30px;
+  background-image: linear-gradient(#e7f7e2, #d6f2fc);
+  border-radius: 4px;
+  position: relative;
+  top: 0px;
+  box-shadow: 0px 0px 8px black;
+  
+}
+.payb{
+  background-image: linear-gradient();
+  padding: 80px ;
+  /* margin: 12px; */
+  background-image: linear-gradient(#e7f7e2, #d6f2fc);
+
+}
+
+
+.payment-container h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Poppins";
+  text-shadow: 1px 1px 3px rgb(238, 191, 104);
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+  /* border: 2px solid red; */
+  padding: 1px;
+ 
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  /* border: 2px solid red; */
+
+}
+
+.form-group input {
+ outline: none;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* text-decoration: none; */
+}
+
+
+ #pay{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(orange,white);
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+#pay:hover {
+  /* background-color: #0069d9; */
+  transform: scale(1.1);
+  transition:  1s ease-in-out;
+}

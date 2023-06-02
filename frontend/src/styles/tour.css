@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .pagination span{
     width: 2rem;
     height: 2rem;
@@ -11,10 +13,41 @@
     font-size: 1.1rem;
     cursor: pointer;
     font-weight: 700;
+    
 
 
 }
 .active__page{
     background: var(--secondary-color);
     color: #fff !important;
+}
+.toursec{
+    background-image: linear-gradient(#d6f2fc,#e7f7e2 );
+    position: relative;
+    display: flex;
+    
+    /* top: 50px; */
+    /* border: 2px solid red; */
+    /* height: 150vh; */
+
+}
+.searchbarsec{
+    /* background-image: linear-gradient(#d6f2fc,#d6f2fc ); */
+    
+    position: relative;
+    top: 30px;
+
+}
+.qoute {
+    text-align: center;
+    position: relative;
+    top: 90px;
+    /* border: 2px solid red; */
+    font-family: 'Dancing Script';
+    font-size: 50px;
+   
+    
+}
+h4{
+    font-size: 40px;
 }

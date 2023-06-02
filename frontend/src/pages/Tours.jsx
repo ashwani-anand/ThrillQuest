@@ -30,15 +30,13 @@ const Tours = () => {
 
     return <>
         <CommonSection title={'All Tours'} />
-        <section>
-            <Container>
-                <Row>
-                    {/* <SearchBar /> */}
-                </Row>
+        {/* <section class="searchbarsec">
+            <Container className="srcb">
+            
             </Container>
-        </section>
+        </section> */}
 
-        <section className="pt-0">
+        <section className=" toursec pt-0">
             <Container>
                 {
                     loading && <h4 className="text-center pt-5">Loading..........</h4>}
@@ -74,7 +72,13 @@ const Tours = () => {
                 }
             </Container>
         </section>
-        <Newsletter />
+        <section>
+            <div className="qoute">
+                <span>A journey of a thousand miles begins with a single step</span>
+                <h4>-Lao Tzu</h4>
+            </div>
+        </section>
+        {/* <Newsletter /> */}
     </>
 };
 export default Tours;  
