@@ -13,6 +13,19 @@ This repository contains the code for an adventure trip planning website built u
 - User reviews and ratings for destinations, activities, and accommodations
 - User profile management
 
+## Essential Pages
+
+The Adventure Hub: Welcome users with a visually stunning landing page that captures the
+essence of adventure, showcasing the thrilling possibilities and unique features of the platform.
+
+Trip Planner: Create an intuitive and interactive itinerary page where users can effortlessly drag
+and drop various components to design their customised adventure trip, ensuring ease of use
+and optimal timeline management.
+
+Thrills & Spills Checkout: Design a secure and user-friendly payment page that allows users to
+confirm their vacation details, providing a seamless booking experience and ensuring their
+adventure journey is just a few clicks away.
+
 ## Installation
 
 To run the adventure trip planning website locally, follow these steps:
