@@ -1,4 +1,4 @@
-# Adventure Trip Planning Website
+# ThrillQuest
 
 This repository contains the code for an adventure trip planning website built using the MERN stack (MongoDB, Express, React, and Node.js). The website allows users to plan and organize their adventure trips by providing information about various destinations, activities, and accommodations.
 
